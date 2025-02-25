@@ -6,7 +6,7 @@ import sys
 def run_command(command, cwd=None):
     """Helper function to run shell commands."""
     try:
-        result = subprocess.run(command, cwd=cwd, check=True, shell=True)
+        subprocess.run(command, cwd=cwd, check=True, shell=True)
         print(f"Command {' '.join(command)} executed successfully.")
     except subprocess.CalledProcessError as e:
         print(f"Error running command: {' '.join(command)}")
@@ -17,7 +17,7 @@ def cmake_build():
     # Get the current platform
     current_platform = platform.system().lower()
 
-    # Path to your source directory (assuming it's the current directory for this script)
+    # Path to your source directory
     source_dir = os.getcwd()
 
     # Create a build directory
