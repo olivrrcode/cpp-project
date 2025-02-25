@@ -1,1 +1,11 @@
-## To run this project just run python build.py with cmake installed and the project will build and run
+## Prerequisites
+
+# CMake
+
+# Python
+
+# Windows Only: Above Visual Studio 15
+
+## How to run
+
+# Run the run.py script by running "python run.py" in the console, the rest will happen for you
