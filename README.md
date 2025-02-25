@@ -1,11 +1,11 @@
-## Prerequisites
+# Prerequisites
 
-# CMake
+## CMake
 
-# Python
+## Python
 
-# Windows Only: Above Visual Studio 15
+## Windows Only: Above Visual Studio 15
 
-## How to run
+# How to run
 
-# Run the run.py script by running "python run.py" in the console, the rest will happen for you
+## Run the run.py script by running "python run.py" in the console, the rest will happen for you
