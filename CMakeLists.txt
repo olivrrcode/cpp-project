@@ -28,5 +28,8 @@ set(SOURCES
     src/utils.cpp
 )
 
+# Include directories
+include_directories(src)
+
 # Define executable
 add_executable(MonkGame ${SOURCES})
