@@ -20,12 +20,6 @@ endif()
 # Include all source files
 set(SOURCES 
     src/main.cpp
-    src/game.cpp
-    src/monk.cpp
-    src/dungeon.cpp
-    src/combat.cpp
-    src/room.cpp
-    src/utils.cpp
 )
 
 # Include directories
