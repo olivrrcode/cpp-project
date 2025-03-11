@@ -1,4 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
+execute_process(
+  COMMAND xcrun --show-sdk-path
+  OUTPUT_VARIABLE CMAKE_OSX_SYSROOT
+  OUTPUT_STRIP_TRAILING_WHITESPACE
+)
+
 project(MonkGame)
 
 # Set C++ standard
