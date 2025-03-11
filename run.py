@@ -67,7 +67,7 @@ def cmake_build():
         executable_path = os.path.join(build_dir, "MonkGame")
 
     if os.path.exists(executable_path):
-        print(f"\nRunning the executable: {executable_path}")
+        run_command("clear || cls")
         run_command(f'"{executable_path}"')
     else:
         print(f"Error: Executable not found at {executable_path}")
